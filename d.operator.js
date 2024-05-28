@@ -41,3 +41,10 @@ console.log(!true);
 let cond1 = 3 > 5; //false
 let cond2 = "nepal" === "Nepal";
 console.log(cond1 && cond2);
+
+let i=50;
+let l=6;
+console.log(Math.ceil(50/6));
+
+
+
