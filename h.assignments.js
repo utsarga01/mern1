@@ -62,5 +62,15 @@ switch (option) {
 
 // ? Find grades for student marks.
 
-let marks = 90;
-
+let marks = 60;
+if (marks >= 90) {
+  console.log("The grade is A+");
+} else if (marks >= 80) {
+  console.log("The grade is A");
+} else if (marks >= 70) {
+  console.log("The grade is B");
+} else if (marks >= 60) {
+  console.log("The grade is C");
+} else {
+  console.log("The grade is F");
+}
