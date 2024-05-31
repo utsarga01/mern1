@@ -124,4 +124,3 @@ let rem= x%2;
 let a=55;
 a<0?console.log("-ve"):
 a>0?console.log("+ve");
-clg("zero");

@@ -74,3 +74,7 @@ if (marks >= 90) {
 } else {
   console.log("The grade is F");
 }
+
+
+
+
