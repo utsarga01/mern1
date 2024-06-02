@@ -60,21 +60,26 @@
 
 // ?WAF to check the polarity of a number
 
-const checkPolarity = (a) => {
-    let result;
-  if (a < 0) {
+// const checkPolarity = (a) => {
+//     let result;
+//   if (a < 0) {
 
-    result= "-ve";
+//     result= "-ve";
 
-  } else if (a > 0) {
+//   } else if (a > 0) {
 
-    result= "+ve";
+//     result= "+ve";
 
-  } else {
+//   } else {
 
-    result= "zero";
-  }
-};
-const result = checkPolarity(20);
+//     result= "zero";
+//   }
+// };
+// const result = checkPolarity(20);
+// console.log(result);
+
+//arrow function
+let a = -1;
+const checkPolarity = () => (a < 0 ? "Negative" : a > 0 ? "Positive" : "zero");
+const result = checkPolarity();
 console.log(result);
-
