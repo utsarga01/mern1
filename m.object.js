@@ -4,7 +4,6 @@
 // const car = {type:"Hyundai",model:"i20",color:"white"};
 // const person ={firstName:"Utsarga",lastName:"Regmi",age:21};
 
-
 // ? creating an empty object and adding properties to it.
 //creating object
 // const person = {};
@@ -28,10 +27,11 @@ objectName["propertyName"]
 //  }
 //  };
 
- 
+// const person = {
+//     firstName: "Utsarga",
+//     lastName: "Regmi",
+//     age: 21,
+//     eyeColor: "black"
+//   };
 
-
-
-
-
-
+//   delete person.age;
