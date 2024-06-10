@@ -28,12 +28,14 @@
 
 // });
 
-const obj1={
-    name:"A",
-};
-const obj2={
-    name:"A",
-};
-//TODO after array
-const obj1keys = Object.keys(obj1);
-const obj2keys = Object.keys(obj2);
+// const obj1={
+//     name:"A",
+// };
+// const obj2={
+//     name:"A",
+// };
+// //TODO after array
+// const obj1keys = Object.keys(obj1);
+// const obj2keys = Object.keys(obj2);
+
+
