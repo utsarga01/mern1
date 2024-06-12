@@ -70,7 +70,7 @@ object;
 studentList.sort(); //In ascending alphabetical order
 //studentList.sort().reverse();//desc
 console.log(studentList);
-let numList = [1, 100, 11, 111, 2, 23, 20, 50, 51, 505];
-numList.sort((a, b) => a - b);//ascending numeric sort
-numList.sort((a, b) => b - a);//descending numeric sort
-console.log(numList);
+let numListt = [1, 100, 11, 111, 2, 23, 20, 50, 51, 505];
+numListt.sort((a, b) => a - b); //ascending numeric sort
+numListt.sort((a, b) => b - a); //descending numeric sort
+console.log(numListt);
