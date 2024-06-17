@@ -79,7 +79,11 @@
 // console.log(result);
 
 //arrow function
-let a = -1;
-const checkPolarity = () => (a < 0 ? "Negative" : a > 0 ? "Positive" : "zero");
-const result = checkPolarity();
-console.log(result);
+// let a = -1;
+// const checkPolarity = () => (a < 0 ? "Negative" : a > 0 ? "Positive" : "zero");
+// const result = checkPolarity();
+// console.log(result);
+
+
+
+
