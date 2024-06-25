@@ -5,12 +5,12 @@
 const numList = [-15, 25, 10, 55, -95, 63, 75];
 // ?find item greater than 20
 
-// const value = numList.find((item, index, array) => {
-//   if (item > 20) {
-//     return item;
-//   }
-// });
-// console.log(value);
+const value = numList.find((item, index, array) => {
+  if (item > 20) {
+    return item;
+  }
+});
+console.log(value);
 
 // const userList = [
 //   {
@@ -42,4 +42,3 @@ const numList = [-15, 25, 10, 55, -95, 63, 75];
 // ? returns index of that item
 // const index = userList.findIndex((item) => item.email === "sam@gmail.com");
 // console.log(index);
-

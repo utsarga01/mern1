@@ -21,13 +21,13 @@ const ProductList = [
 
   {
     id: 1,
-    name: "efhwe",
+    name: "socks",
     price: 4,
   },
 
   {
     id: 2,
-    name: "sdfs",
+    name: "caps",
     price: 457,
   },
 ];
