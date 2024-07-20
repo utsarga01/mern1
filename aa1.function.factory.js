@@ -8,4 +8,18 @@
   
 //   const sayHello = createGreetingFunction("Hello");
 //   const sayHi = createGreetingFunction("Hi");
+
 //   const sayGreetings = createGreetingFunction("Greetings");
+
+
+// function createDiscountFunction(discount) {
+//   return function(price) {
+//     return price - (price * discount);
+//   };
+// }
+
+// const tenPercentOff = createDiscountFunction(0.1);
+// const twentyPercentOff = createDiscountFunction(0.2);
+
+// console.log(tenPercentOff(100));  // Output: 90
+// console.log(twentyPercentOff(100)); // Output: 80
